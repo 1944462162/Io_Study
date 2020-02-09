@@ -44,7 +44,7 @@ import java.io.IOException;
 public class Demo01OutputStream {
     public static void main(String[] args) throws IOException {
         FileOutputStream fileOutputStream = new FileOutputStream("a.txt");
-        fileOutputStream.write(128);
+        fileOutputStream.write(97);
         fileOutputStream.close();
     }
 }
